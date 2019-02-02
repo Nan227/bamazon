@@ -1,23 +1,15 @@
-DROP DATABASE IF EXISTS starwars_db;
-CREATE DATABASE starwars_db;
-USE starwars_db;
+DROP DATABASE IF EXISTS bamazon_db;
+CREATE DATABASE bamazon_db;
+USE bamazon_db;
 
 -- Create the characters table
-CREATE TABLE characters
+CREATE TABLE store
 (
-  id INT NOT NULL AUTO_INCREMENT,
-  name VARCHAR (255) NOT NULL,
-  role VARCHAR (255) NOT NULL,
-  age INT NOT NULL,
-  forcePoints INT NOT NULL,
-  PRIMARY KEY(id)
+  Item_id INT NOT NULL AUTO_INCREMENT,
+  Product_name VARCHAR (200) NOT NULL,
+  Department_name VARCHAR (200) NOT NULL,
+  Price DECIMAL (10,4) NOT NULL,
+  Stock_quantity INT NOT NULL,
+  PRIMARY KEY(Item_id)
 );
---  * item_id (unique id for each product)
 
---   * product_name (Name of product)
-
- --  * department_name
-
---   * price (cost to customer)
-
---   * stock_quantity (how much of the product is available in stores)
