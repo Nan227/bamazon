@@ -9,5 +9,7 @@ This app will display all item names, amount of units, department, and price. Af
 ![](img/bamazon.png)
 
 # Video
-[![Watch the video](img/bamazon.png)](https://youtu.be/tcTjqj2JQhE)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tcTjqj2JQhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[![Watch the video](https://img.youtube.com/vi/tcTjqj2JQhE/default.jpg)](https://youtu.be/tcTjqj2JQhE)
+
+
