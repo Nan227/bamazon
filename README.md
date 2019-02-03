@@ -6,5 +6,6 @@ This app will display all item names, amount of units, department and price. Aft
 - If the store do not have enough item, it will show that how many item the store have and ask buyer again.
 
 # Screenshot
+![](.img/bamazon.png)
 
 # Video
