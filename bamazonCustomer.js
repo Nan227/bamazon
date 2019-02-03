@@ -54,11 +54,16 @@ function buyProduct(item, amount) {
 
       if (results[0].Stock_quantity > amount) {
         const newQuantity = results[0].Stock_quantity - amount;
+        const totalbill = results[0].Price * amount;
+        const nameProduct = results[0].Product_name;
         const DBquery = "UPDATE store SET stock_quantity = ? WHERE Item_id = ?"
 
-        connection.query(DBquery, [newQuantity, item], function (err, results) {
+        connection.query(DBquery, [newQuantity, nameProduct, item], function (err, results) {
           if (err) throw err;
-          console.log("Thank you for you purchase.  Come again soon.");
+          console.log("-------------------------------------------------");
+          console.log("Thank you for you purchase "+ nameProduct + " " + amount + " unit(s).");
+          console.log("You bill will be "+ totalbill + " dollars");
+          console.log("-------------------------------------------------");
           connection.end();
         })
 
