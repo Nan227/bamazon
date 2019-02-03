@@ -10,3 +10,4 @@ This app will display all item names, amount of units, department, and price. Af
 
 # Video
 [![Watch the video](img/bamazon.png)](https://youtu.be/tcTjqj2JQhE)
+<iframe src="https://giphy.com/embed/PQvP15vQimGoTszP1G" width="480" height="244" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/PQvP15vQimGoTszP1G">via GIPHY</a></p>
